@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+    background-color: #3E497A;
+}
+
+section {
+    margin-top: 1rem;
+}
+
+.container {
+    width: 90vw;
+    margin: 5rem auto;
+    background-color: #21325E;
+    border-radius: 0.25rem;
+    padding: 2rem 2rem;
+    max-width: 920px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F0F0F0;
+}
+
+.btn {
+    background: #eae6eb;
+    border: transparent;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: purple;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 1rem;
+    align-self: center;
+    min-width: 2rem;
+}
+
+.content {
+    padding: 1rem 1.5rem;
+    border: 2px solid #F1D00A;
+    background-color: #F1D00A;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.content header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content p {
+    margin-top: 1rem;
+    color: purple;
+}
+
+.content h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
